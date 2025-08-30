@@ -1,0 +1,35 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #478891;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    background: rgb(249, 177, 177);
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+}
+h1 {
+    color: #0b0b0c;
+    text-align: center;
+}
+input, button {
+    width: calc(100% - 20px);
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #4fa5eb;
+    font-size: 1em;
+}
+#weather-info {
+    margin-top: 20px;
+    text-align: center;
+    display: none;
+}
+img#weather-icon {
+    width:250px;
+    height: 250px;
+}
